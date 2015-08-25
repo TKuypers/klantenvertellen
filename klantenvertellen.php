@@ -18,17 +18,28 @@ function getSnippet($attr)
 	$v    = (isset($attr['v'])) ? $attr['v'] : 'v1';
 
 
-	$data  = file_get_contents('http://www.klantenvertellen.nl/xml/'.$slug.'/all');
+	$average = wp_cache_get('average', 'klantenvertellen');
+	$total   = wp_cache_get('total', 'klantenvertellen');
 
-	$xml   = simplexml_load_string($data);
-	$json  = json_encode($xml);
-	$array = json_decode($json, TRUE);
 
-	$stats = $array['statistieken'];
+	// get from xml if cache is empty
+	if($average === FALSE || $total === FALSE)
+	{
+		$data  = file_get_contents('http://www.klantenvertellen.nl/xml/'.$slug.'/all');
 
-	$average = $stats['gemiddelde'];
-	$total   = $stats['aantalbeoordelingen'];
+		$xml   = simplexml_load_string($data);
+		$json  = json_encode($xml);
+		$array = json_decode($json, TRUE);
 
+		$stats = $array['statistieken'];
+
+		$average = $stats['gemiddelde'];
+		$total   = $stats['aantalbeoordelingen'];
+
+
+		wp_cache_set('average', $average, 'klantenvertellen', 86400);
+		wp_cache_set('total', $total, 'klantenvertellen', 86400);
+	}
 	?>
 
 	<div class="recommendation-container" itemscope itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating">
