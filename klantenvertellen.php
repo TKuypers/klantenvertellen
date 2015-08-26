@@ -54,4 +54,4 @@ function getSnippet($attr)
 
 }
 
-add_shortcode('klantenvertellen', getSnippet);
+add_shortcode('klantenvertellen', 'getSnippet');
