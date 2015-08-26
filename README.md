@@ -16,14 +16,16 @@ With this plugin you can add the Klantenvertellen widget to your Wordpress websi
 The plugin can be used in an post or page the following shortcode:
 
 ```
-[klantenvertellen slug="*expertees*" v="*v1*"]
+[klantenvertellen slug="expertees" v="v1"]
 ```
-### Parameters
-* *slug* - The name of your company as used by klantenvertellen. This is the same as the last part of the URL of your klantenvertellen page
-* *v* - The plugin version you want to use. This can be v1, v6, v7, v8, v9, v10. Default - v1
+**Parameters**
+* *slug* 
+	The name of your company as used by klantenvertellen. This is the same as the last part of the URL of your klantenvertellen page
+* *v*
+	The plugin version you want to use. This can be v1, v6, v7, v8, v9, v10. Default - v1
 
 To use it in a theme use the following php code:
 
 ```
-<?php echo do_shortcode('[klantenvertellen slug="*expertees*" v="*v1*"]'); ?>
+<?php echo do_shortcode('[klantenvertellen slug="expertees" v="v1"]'); ?>
 ```
