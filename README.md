@@ -9,7 +9,7 @@ With this plugin you can add the Klantenvertellen widget to your Wordpress websi
 
 ### Manual installation
 1. Unpack the .zip file
-2. With your FTP program, upload the klantenvertellen folder to the **wp-content/plugins** folder in your Wordpress directory online.
+2. With your FTP program, upload the **klantenvertellen** folder to the **wp-content/plugins** folder in your Wordpress directory online.
 3. Go to Plugins and activate the plugin
 
 ## Usage
@@ -20,7 +20,7 @@ The plugin can be used in an post or page the following shortcode:
 ```
 **Parameters**
 * ***SLUG*** - the name of your company as used by klantenvertellen.
-* ***V*** the plugin version you want to use. This can be v1, v6, v7, v8, v9, v10. Default - v1
+* ***V*** - the plugin version you want to use. This can be v1, v6, v7, v8, v9, v10. Default - v1
 
 To use it in a theme use the following php code:
 
