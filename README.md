@@ -1,28 +1,28 @@
 # Wordpress Klantenvertellen Plugin
 
-With this plugin you can add the Klantenvertellen widget to your Wordpress website. The plugin fetches data from the XML feed provided by Klantenvertellen. The plugin uses the Schema.org AggregateRating vocabulary (**https://schema.org/AggregateRating**)
+Met deze plugin kunt u de Klantenvertellen widget aan uw eigen Wordpress website toevoegen. De plugin haalt data uit de XML feed aangeleverd door Klantenvertellen. Hij maakt gebruik van het Schema.org AggregateRating vocabulaire (**https://schema.org/AggregateRating**)
 
-## Installation
-1. Go to **Plugins** > **Add new**  > **Upload plugin**
-2. Upload the provided .zip file
-3. Go to Plugins and activate the plugin
+## Installatie
+1. Ga naar **Plugins** > **Add new**  > **Upload plugin**
+2. Upload de aangeleverde .zip file
+3. Ga naar Plugins en activeer de plugin
 
-### Manual installation
-1. Unpack the .zip file
-2. With your FTP program, upload the **klantenvertellen** folder to the **wp-content/plugins** folder in your Wordpress directory online.
-3. Go to Plugins and activate the plugin
+### Handmatige installatie
+1. Pak de .zip file uit
+2. Upload met uw FTP programma de **klantenvertellen** folder naar de **wp-content/plugins** folder in uw online Wordpress directory
+3. Ga naar Plugins en activeer de plugin
 
-## Usage
-The plugin can be used in an post or page the following shortcode:
+## Gebruik
+U kunt de plugin plaatsen in uw eigen artikel of pagina door de volgende code te gebruiken:
 
 ```
 [klantenvertellen slug="expertees" v="v1"]
 ```
 **Parameters**
-* ***SLUG*** - the name of your company as used by klantenvertellen.
-* ***V*** - the plugin version you want to use. This can be v1, v6, v7, v8, v9, v10. Default - v1
+* ***SLUG*** - de naam van uw bedrijf zoals bij Klantenvertellen geregistreerd staat
+* ***V*** - de versie van de plugin die u wilt gebruiken. Dit kan zijn v1, v6, v7, v8, v9, v10. Standaard - v1
 
-To use it in a theme use the following php code:
+Om de plugin in een thema te gebruiken heeft u de volgende php code nodig:
 
 ```
 <?php echo do_shortcode('[klantenvertellen slug="expertees" v="v1"]'); ?>
