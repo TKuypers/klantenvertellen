@@ -25,7 +25,7 @@ function getSnippet($attr)
 	// get from xml if cache is empty
 	if($average === FALSE || $total === FALSE)
 	{
-		$data  = file_get_contents('http://www.klantenvertellen.nl/xml/'.$slug.'/all');
+		$data  = file_get_contents('https://www.klantenvertellen.nl/xml/'.$slug.'/all');
 
 		$xml   = simplexml_load_string($data);
 		$json  = json_encode($xml);
