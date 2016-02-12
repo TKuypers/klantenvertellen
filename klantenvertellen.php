@@ -21,9 +21,10 @@ function getSnippet($attr)
 	$average = wp_cache_get('average', 'klantenvertellen');
 	$total   = wp_cache_get('total', 'klantenvertellen');
 
+	
 
 	// get from xml if cache is empty
-	if($average === FALSE || $total === FALSE)
+	if(($average === FALSE || !is_numeric($average)) || ($total === FALSE || !is_numeric($total)))
 	{
 		$data  = file_get_contents('https://www.klantenvertellen.nl/xml/'.$slug.'/all');
 
