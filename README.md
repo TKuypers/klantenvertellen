@@ -5,6 +5,8 @@ Met deze plugin kunt u de Klantenvertellen widget aan uw eigen Wordpress website
 
 Voor een optimaal resultaat moeten de bedrijfsgegevens gekoppeld worden aan de waarderingen. Door deze gegevens aan de plugin mee te geven worden deze naast de widget getoond. Eventueel zijn deze gegevens ook te verbergen. Dit is echter niet aan te raden.
 
+De resultaten van de widget zijn te testen via: https://developers.google.com/structured-data/testing-tool/
+
 ## Installatie
 1. Ga naar **Plugins** > **Add new**  > **Upload plugin**
 2. Upload de aangeleverde .zip file
