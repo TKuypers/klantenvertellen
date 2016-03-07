@@ -26,12 +26,12 @@ U kunt de plugin plaatsen in uw eigen artikel of pagina door de volgende code te
 2. v - de versie van de plugin die u wilt gebruiken. Dit kan zijn v1, v6, v7, v8, v9, v10. Standaard - v1
 
 **Optionele parameters**
-1. name - De naam van uw bedrijf
-2. street - Adres van uw bedrijf
-3. postalcode - Postcode van uw bedrijf
-4. city - De vestigingsplaats van uw bedrijf
-5. telephone - Het telefoonnummer van uw bedrijf
-6. hide - Wanneer u 'true' invult worden de bedrijfsgegevens wel in de html toegevoegd maar niet getoond.
+1. name - De naam van uw bedrijf <br/>
+2. street - Adres van uw bedrijf<br/>
+3. postalcode - Postcode van uw bedrijf<br/>
+4. city - De vestigingsplaats van uw bedrijf<br/>
+5. telephone - Het telefoonnummer van uw bedrijf<br/>
+6. hide - Wanneer u 'true' invult worden de bedrijfsgegevens wel in de html toegevoegd maar niet getoond.<br/>
 
 Om de plugin in een thema te gebruiken heeft u de volgende php code nodig:
 
