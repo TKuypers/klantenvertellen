@@ -39,3 +39,4 @@ Om de plugin in een thema te gebruiken heeft u de volgende php code nodig:
 <?php echo do_shortcode('[klantenvertellen slug="expertees" v="v1"]'); ?>
 ```
 
+
