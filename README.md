@@ -22,16 +22,16 @@ U kunt de plugin plaatsen in uw eigen artikel of pagina door de volgende code te
 [klantenvertellen slug="expertees" v="v1"]
 ```
 **Parameters**
-  + ***slug*** - de afkorting van uw bedrijf zoals bij Klantenvertellen geregistreerd staat
-  + ***v*** - de versie van de plugin die u wilt gebruiken. Dit kan zijn v1, v6, v7, v8, v9, v10. Standaard - v1
+  1. ***slug*** - de afkorting van uw bedrijf zoals bij Klantenvertellen geregistreerd staat
+  2. ***v*** - de versie van de plugin die u wilt gebruiken. Dit kan zijn v1, v6, v7, v8, v9, v10. Standaard - v1
 
 **Optionele parameters**
-  + ***name*** - De naam van uw bedrijf
-  + ***street*** - Adres van uw bedrijf
-  + ***postalcode*** - Postcode van uw bedrijf
-  + ***city*** - De vestigingsplaats van uw bedrijf
-  + ***telephone*** - Het telefoonnummer van uw bedrijf
-  + ***hide*** - Wanneer u 'true' invult worden de bedrijfsgegevens wel in de html toegevoegd maar niet getoond.
+  1. ***name*** - De naam van uw bedrijf
+  2. ***street*** - Adres van uw bedrijf
+  3. ***postalcode*** - Postcode van uw bedrijf
+  4. ***city*** - De vestigingsplaats van uw bedrijf
+  5. ***telephone*** - Het telefoonnummer van uw bedrijf
+  6. ***hide*** - Wanneer u 'true' invult worden de bedrijfsgegevens wel in de html toegevoegd maar niet getoond.
 
 Om de plugin in een thema te gebruiken heeft u de volgende php code nodig:
 
