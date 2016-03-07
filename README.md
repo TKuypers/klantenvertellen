@@ -21,6 +21,7 @@ U kunt de plugin plaatsen in uw eigen artikel of pagina door de volgende code te
 ```
 [klantenvertellen slug="expertees" v="v1"]
 ```
+
 **Parameters**<br/>
 ***slug*** - de afkorting van uw bedrijf zoals bij Klantenvertellen geregistreerd staat<br/>
 ***v*** - de versie van de plugin die u wilt gebruiken. Dit kan zijn v1, v6, v7, v8, v9, v10. Standaard - v1<br/>
