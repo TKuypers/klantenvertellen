@@ -29,7 +29,7 @@ U kunt de plugin plaatsen in uw eigen artikel of pagina door de volgende code te
 * ***street*** - Adres van uw bedrijf
 * ***postalcode*** - Postcode van uw bedrijf
 * ***city*** - De vestigingsplaats van uw bedrijf
-* * ***telephone*** - Het telefoonnummer van uw bedrijf
+* ***telephone*** - Het telefoonnummer van uw bedrijf
 * ***hide*** - Wanneer u 'true' invult worden de bedrijfsgegevens wel in de html toegevoegd maar niet getoond.
 
 Om de plugin in een thema te gebruiken heeft u de volgende php code nodig:
