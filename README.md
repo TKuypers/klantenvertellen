@@ -1,4 +1,5 @@
-# Wordpress Klantenvertellen Plugin
+Wordpress Klantenvertellen Plugin
+=================================
 
 Met deze plugin kunt u de Klantenvertellen widget aan uw eigen Wordpress website toevoegen. De plugin haalt data uit de XML feed aangeleverd door Klantenvertellen en maakt gebruik van het Schema.org AggregateRating vocabulaire (**https://schema.org/AggregateRating**) waardoor zoekmachines de waarderingen aan de zoekresultaten toevoegen.
 
