@@ -8,8 +8,6 @@ Author: Expertees <ties@expertees.nl>
 Author URI: http://expertees.nl
 */
 
-error_reporting(E_ALL);
-
 function file_get_contents_curl($url)
 {
     $ch = curl_init();
@@ -33,7 +31,10 @@ function getSnippet($attr)
     return;
 
   $slug       = $attr['slug'];
-  $v          = (isset($attr['v'])) ? $attr['v'] : 'v1';
+  $v          = (isset($attr['v'])) ? '&version='.$attr['v'] : '&version=1';
+  $width      = (isset($attr['width'])) ? $attr['width'] : '100';
+  $height     = (isset($attr['height'])) ? $attr['height'] : '140';
+  $dark       = (isset($attr['dark']) == 'true') ? '&color=dark' : '';
 
 
   $name       = (isset($attr['name'])) ? $attr['name'] : NULL;
@@ -91,7 +92,7 @@ function getSnippet($attr)
               <meta itemprop="worstRating" content="0">
               <meta itemprop="ratingCount" content="<?=$total?>">
               <meta itemprop="ratingValue" content="<?=$average?>">
-          <iframe frameborder="0" allowtransparency="true" class="recommendation" src="http://klantenvertellen.nl/widget/<?=$v?>/<?=$slug?>"></iframe>
+          <iframe frameborder="0" allowtransparency="true" width="<?=$width?>" height="<?=$height?>" class="recommendation" src="http://klantenvertellen.nl/widget/dtg/<?=$slug?>/?<?=$v?><?=$dark?>"></iframe>
         </div>
 
   </address>
