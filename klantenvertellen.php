@@ -92,7 +92,7 @@ function getSnippet($attr)
               <meta itemprop="worstRating" content="0">
               <meta itemprop="ratingCount" content="<?=$total?>">
               <meta itemprop="ratingValue" content="<?=$average?>">
-          <iframe frameborder="0" allowtransparency="true" width="<?=$width?>" height="<?=$height?>" class="recommendation" src="http://klantenvertellen.nl/widget/dtg/<?=$slug?>/?<?=$v?><?=$dark?>"></iframe>
+          <iframe frameborder="0" allowtransparency="true" width="<?=$width?>" height="<?=$height?>" class="recommendation" src="//klantenvertellen.nl/widget/dtg/<?=$slug?>/?<?=$v?><?=$dark?>"></iframe>
         </div>
 
   </address>
